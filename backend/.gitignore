@@ -1,0 +1,69 @@
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+*.log
+*.env
+.env.*
+*.local
+node_modules/
+dist/
+build/
+.cache/
+*.swp
+*.swo
+*.bak
+*.tmp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === BACKEND (Flask, Python) ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+celebrations.db
+
+# VS Code settings
+.vscode/
+
+# === FRONTEND (React + Vite + Tailwind + TypeScript) ===
+# Dependency directories
+node_modules/
+
+# Vite build output
+dist/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+.next/
+out/
+.turbo/
+
+# Mac system files
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
