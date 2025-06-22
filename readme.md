@@ -40,13 +40,15 @@ This app automatically sends **email** and **WhatsApp wishes** daily at a schedu
 
 ### 🔧 Backend (Flask)
 
-\`\`\`bash
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+```
 
 # Set environment variables (create a .env file or export manually)
+```
 export SMTP_SERVER=smtp.gmail.com
 export SMTP_PORT=587
 export SENDER_EMAIL=your_email@gmail.com
@@ -54,18 +56,20 @@ export SENDER_PASSWORD=your_password
 export TWILIO_ACCOUNT_SID=your_sid
 export TWILIO_AUTH_TOKEN=your_token
 export TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886  # Default sandbox
+```
 
 # Run the app
+```
 python app.py
-\`\`\`
+```
 
 ### 🧪 Frontend (React)
 
-\`\`\`bash
+```bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 
 ---
 
@@ -112,7 +116,7 @@ On first run, the app populates the database with sample people for testing.
 
 ## 📂 Folder Structure
 
-\`\`\`
+```
 project-root/
 │
 ├── backend/
@@ -127,7 +131,7 @@ project-root/
 │
 ├── .gitignore
 └── README.md
-\`\`\`
+```
 
 ---
 
