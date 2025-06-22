@@ -137,7 +137,7 @@ project-root/
 
 ## 📜 License
 
-MIT License – feel free to use, modify, and share.
+MIT License.
 
 ---
 
